@@ -8,8 +8,7 @@ import cv2 as cv
 # cv.waitKey(0)
 
 # reading a video (if VideoCapture is sent a number 0, it will open the first camera)
-# capture = cv.VideoCapture("videos\Webinar for Charity.mp4")
-capture = cv.VideoCapture(0)
+capture = cv.VideoCapture("videos\kitten.mp4")
 
 while True:
     isTrue, frame = capture.read()
